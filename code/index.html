@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <script>
+        var flag = true;
+        function railgun() {
+            if (flag) {
+                var img;
+                var img = document.createElement("img");
+                img.src = "image/发射动图.gif"
+                var gif = document.querySelector(".divgif");
+                gif.appendChild(img);
+                flag = false;
+            }
+        }
+    </script>
+    <div class="background1">
+        <div class="background_clear">
+            <!-- 背景的相关设置 -->
+            <h1>电磁炮介绍</h1>
+            <table class="Table" border="100" cellspacing="0" width="1500" 　>
+                <th class="Twords"><a href="#component">组成结构</a></th>
+                <th class="Twords"><a href="#principle">原理解释</a></th>
+                <th class="Twords"><a href="#feature">性能特点</a></th>
+                <th class="Twords"><a href="#classify">分类</a></th>
+                <th class="Twords"><a href="#function">作战用途</a></th>
+                <th class="Twords"><a href="#problem">主要问题</a></th>
+                <th class="Twords"><a href="#comment">总体评价</a></th>
+            </table>
+            <!-- 导航标题栏 -->
+            <br />
+
+            <!-- 第一部分 -->
+            <h2 id="component">一，组成结构</h2>
+            <p>
+                电磁炮利用电磁力沿导轨发射炮弹的武器。它主要由能源、加速器、开关三部
+                分组成。能源通常采用可蓄存10～100兆焦耳能量的装置。当前实验用的能源有
+                蓄电池组、磁通压缩装置、单极发电机，其中单极发电机是最有前途的能源。
+            </p>
+            <p>
+                加速器是把电磁能量转换成炮弹动能，使炮弹达到高速的装置。主要有：使用低压
+                直流单极发电机供电的轨道炮加速器和离散或连续线圈结构的同轴同步加速器两大类。
+                开关是接通能源和加速器的装置，能在几毫秒之内把兆安级电流引进加速器中，其中的
+                一种是由两根铜轨和一个可在其中滑动的滑块组成。
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://baike.baidu.com/item/%E7%94%B5%E7%A3%81%E7%82%AE/1626600?fr=aladdin"
+                    target="_blank">来源——百度百科</a>"
+            </p>
+            <div class="pic1"></div>
+            <br />
+
+            <!-- 第二部分 -->
+            <h2 id="principle">二，原理解释</h2>
+            <p>
+                19世纪，英国科学家法拉第发现了法拉第电磁感应定律，该定律表明磁场中的电荷和电流会受到洛仑兹力的作用，
+                即位于磁场中的导线在通电时会受到一个力的推动，同时，如果让导线在磁场中作切割磁力线的运动，导线上也会产生
+                电流。
+            </p>
+            <p>
+                20世纪初，有人提出利用洛仑兹力发射炮弹的设想。在两次世界大战中，法国、德国和日本都曾研究过电磁炮。
+                第二次世界大战以后，其他国家也进行过这方面的研究。
+            </p>
+            <p>相关图解如下：</p>
+            <div>
+                <img class="principle1" src="image/principle1.jpg" />
+                <img class="principle2" src="image/principle2.jpg" />
+                <span>
+                    -----------------------------------------
+                    <a href="https://www.bilibili.com/video/BV12s411Z7iC?from=search&seid=14611739661137302354"
+                        target="_blank">bilibili视频解说</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="background2">
+        <div class="background_clear">
+            <br />
+
+            <!-- 第三部分 -->
+            <h2 id="feature">三，性能特点</h2>
+            <p>
+                电磁轨道炮是一种远程、高能、多任务的武器，其射速可达当前海军的舰炮的3倍。其射程可达100英里（约161千米）
+                以上，以舰船上储存的电能为动力来源，利用电磁力（洛仑兹力）沿导轨将弹头加速到很高的速度发射出去。
+                美国海军官员称，这是一种不太昂贵、具有高杀伤力和远程打击能力的攻击性武器。
+            </p>
+            <p>
+                磁轨道炮弹头重23磅（约10.43千克），可以从电磁导轨上发射，也可从海军127毫米甚至155毫米火炮系统发射。
+                导轨炮采用指令制导，但在未来可能发展成自导式。除了在射程和毁伤力方面的优势，
+                该炮还是一种相对廉价的海军火炮项目，每枚炮弹成本约25000美元。
+            </p>
+            <p>
+                由于电磁轨道炮是一种具有高能量的武器，因此发热情况严重，需要有良好的冷却技术支持。
+                电磁轨道炮并不仅仅是一个炮弹发射装置，而是由多个系统组成的。美国海军正在对多个冷却系统设计进行评估。
+            </p>
+            <ol class="olpattern">
+                <li>电磁推动力大，弹丸速度高。电磁发射的脉冲动力约为火炮发射力的10倍,所以用它发射的弹丸速度很高。
+                    一般火炮的射击速度约为0.8千米/秒，步枪子弹的射击速度为l千米/秒。而电磁炮可将3克重的弹丸加速到11千米/秒，
+                    将300克的弹丸加速到4千米/秒。有的专家甚至预言，将来的速度可达100千米/秒。速度对于天基反导弹系统来说尤为重要。
+                    因为拦截器速度越高，不仅拦截的效率高。而且可大大减少天基武器的数量。</li>
+                <li>
+                    弹丸稳定性好。电磁炮弹丸在炮管中受到的推力是电磁力, 这种力量是非常均匀的，而电磁推力容易控制，
+                    所以弹丸稳定性好，这有利于提高命中精度。
+                </li>
+                <li>
+                    隐蔽性好。电磁炮在发射时不产生火焰和烟雾，也不产生冲击波，所以作战中比较隐蔽，不易被敌人发现。
+                    而且，它采用低级燃料作能源，而不是常规火药，这有利于发射阵地的安全。
+                </li>
+                <li>
+                    弹丸发射能量可调。可根据目标性质和射称大小可快速调节电磁力的大小，从而控制弹丸的发射能量。
+                </li>
+                <li>
+                    比较经济。与常规武器比较，火炮发射药产生每焦耳能量需要10美元， 而电磁炮只需要0.1美元。
+                    如果与其他太空武器相比，电磁炮就更经济了。
+                </li>
+            </ol>
+            <div class="pic2"></div>
+            <table border="1" cellspacing="0" width="750">
+                <th colspan="2"> 传统电磁炮输出特性参数</th>
+                <tr>
+                    <td>出膛速度</td>
+                    <td>2000-3000m/s</td>
+                </tr>
+                <tr>
+                    <td>最大射程</td>
+                    <td>150km</td>
+                </tr>
+                <tr>
+                    <td>输出炮弹动能</td>
+                    <td>5-50MJ</td>
+                </tr>
+                <tr>
+                    <td>电流峰值</td>
+                    <td>5MA</td>
+                </tr>
+                <tr>
+                    <td>发射用时</td>
+                    <td>1-10ms</td>
+                </tr>
+                <tr>
+                    <td>磁感应强度峰值</td>
+                    <td>10T</td>
+                </tr>
+            </table>
+            <!-- 输出参数表格 -->
+            <br />
+
+            <!-- 第四部分 -->
+            <h2 id="classify">四，分类</h2>
+            <h3>线圈炮</h3>
+            <p class="p_classify">线圈炮又称交流同轴线圈炮。它是电磁炮的最早形式，由加速线圈和弹丸线圈构成。根据通电线圈之间磁场的相互作用
+                原理而工作的。加速线圈固定在炮管中，当它通入交变电流时，产生的交变磁场就会在弹丸线圈中产生感应电流。
+                感应电流的磁场与加速线圈电流的磁场互相作用，产生电磁场力，使弹丸加速运动并发射出去。</p>
+        </div>
+    </div>
+    <div class="background3">
+        <div class="background_clear">
+            <h3> 轨道炮</h3>
+            <p class="p_classify">轨道炮轨道炮（Rail Gun）或译磁轨炮、导轨炮由法国人维勒鲁伯于1920年发明，是利用轨道电流间相互作用的安培力
+                把弹丸发射出去。它由两条平行的长直导轨组成，导轨间放置一质量较小的滑块作为弹丸。当两轨接入电源时，
+                强大的电流从一导轨流入，经滑块从另一导轨流回时，在两导轨平面间产生强磁场，通电流的滑块在安培力的作用下，
+                弹丸会以很大的速度（理论上可以到达亚光速)射出，这就是轨道炮的发射原理，轨道炮是电磁炮最常见的式样。
+                电磁炮是利用电磁发射技术制成的一种先进的动能杀伤武器，与传统的大炮将火药燃气压力作用于弹丸不同，
+                电磁炮是利用电磁系统中电磁场的作用力，其作用的时间要长得多，可大大提高弹丸的速度和射程。因而引起了世界各国
+                军事家们的关注。自80年代初期以来，电磁炮在未来武器的发展计划中，已成为越来越重要的部分。</p>
+            <h3>电热炮</h3>
+            <p class="p_classify">电热炮的原理完全不同于上述两种电磁炮，其结构也有多种形式。最简单的一种是采用一般的炮管，
+                管内设置有接到等离子体燃烧器上的电极，燃烧器安装在炮后膛的末端。当等离子体燃烧器两极间加上高压时，
+                会产生一道电弧，使放在两极间的等离子体生成材料（如聚乙烯）蒸发。蒸发后的材料变成过热的高压等离子体，
+                从而使弹丸加速。
+            </p>
+            <h3>重接炮</h3>
+            <p class="p_classify">重接炮是一种多级加速的无接触电磁发射装置，没有炮管，但要求弹丸在进入重接炮之前应有
+                一定的初速度。其结构和工作原理是利用两个矩形线圈上下分置，之间有间隙，长方形的“炮弹”在两个矩形线圈产生的
+                磁场中受到强磁场力的作用，穿过间隙在其中加速前进。重接炮是电磁炮的最新发展形式。</p>
+            <br />
+            <div class="pic3"></div>
+
+            <!-- 第五部分 -->
+            <h2 id="function">五，作战用途</h2>
+            <form>
+                <select class="input_left">
+                    <option>天基反导系统</option>
+                    <option>防空系统</option>
+                    <option>反装甲武器</option>
+                    <option>改装常规火炮</option>
+                    <option>反坦克武器</option>
+                    <option>装备炮部队</option>
+                    <option>装备海军舰艇</option>
+                </select>
+                <a href="https://baike.baidu.com/item/%E7%94%B5%E7%A3%81%E7%82%AE/1626600?fr=aladdin"
+                    target="_blank">详细信息可参见百度百科</a>
+            </form>
+            <br />
+
+            <!-- 第六部分 -->
+            <h2 id="problem">六，主要问题</h2>
+            <ol class="olpattern">
+                <li>加速度大人无法承受，加速度小轨道长度过长</li>
+                <li>减小阻力，需设置在空气稀薄的高山之巅，而这难以建造大型轨道</li>
+                <li>要有足够强的电流需要冷却到极低的温度，不具有灵活性</li>
+            </ol>
+        </div>
+    </div>
+    <div class="background4">
+        <div class="background_clear">
+            <br />
+
+            <!-- 第七部分 -->
+            <h2 id="comment">七，总体评价</h2>
+            <p>
+                尽管美国的国防预算难以避免被大幅削减的命运，但美国海军最高指挥官对未来的武器项目充满信心。
+            </p>
+            <p>
+                美国海军作战部长格林纳特上将在出席海军联盟2014年海空天博览会时表示，美海军平台应该要更好地适应其搭载的
+                武器和任务系统。
+            </p>
+            <p>
+                格林纳特介绍，电磁导轨炮已经走出实验室，正在进入工程测试阶段。电磁导轨炮利用电能产生磁场，在此前的测试中，
+                电磁导轨炮将一枚23磅（约合10.43千克）的弹丸推动到5600英里/小时（约合2.5千米/秒）的出膛速度。电磁导轨炮是
+                一种动能武器，也就是说它不需要安装爆炸物。
+            </p>
+            <p>
+                美国海军还正在推进为部署在阿拉伯海的巡逻舰艇装备新型导弹系统测试进展顺利。除电磁导轨炮之外，
+                其它的一些新型舰载武器也处于研制当中。美海军已经在近海战斗舰（LCS）上装备了“长弓地狱火”导弹，
+                但这是权宜之策，美国海军计划在濒海战斗舰上装备远程导弹，从而提高这型舰艇的杀伤力。
+            </p>
+
+            <!-- button点击出现动图 -->
+            <button class="button" onclick="railgun()">
+                电磁炮发射
+            </button>
+            </br></br>
+            <div class="divgif">
+
+            </div>
+            <br /><br /> <br /><br />
+
+            <!-- 最后的结束 -->
+            <div class="divright">
+                封面背景人物你认识吗？
+            </div>
+            <form class="divright">
+                <input type="radio" name="enquiry" value="认识" checked="checked" id="k">
+                <label for="k">认识 </label>
+                <input type="radio" name="enquiry" value="不认识" id="n">
+                <label for="n">不认识 </label>
+            </form>
+            <br />
+            <a class="divright"
+                href="https://baike.baidu.com/item/%E5%BE%A1%E5%9D%82%E7%BE%8E%E7%90%B4/6492332?fr=aladdin">
+                通往了解的传送门
+            </a>
+            </br>
+            <div class="information">
+                姓名：李雨哲 &nbsp;&nbsp;&nbsp;&nbsp;学号：20202241434
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+.background1{
+    width: 1700px;
+    height: 800px;
+    background-image: url("../image/background1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -999;    
+}
+
+.background2{
+    width: 1700px;
+    height: 800px;
+    background-image: url("../image/background2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -999;
+}
+
+.background3{
+    width: 1700px;
+    height: 800px;
+    background-image: url("../image/background3.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -999;
+}
+
+.background4{
+    width: 1700px;
+    height: 800px;
+    background-image: url("../image/background4.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -999;
+}
+
+.background_clear{
+     width: 1700px; 
+    height: 850px;  
+    background:rgba(255, 255, 255, 0.8);
+    text-align: center;     /*使背景图片透明*/
+}
+
+.Table{
+    border:blue;
+    border-width: 100;
+}          
+
+h1{
+    font-weight: 400;
+}
+
+h2{
+    text-align: left;
+    text-indent: 2em;
+    font-weight: 400;
+}
+
+h3{
+    text-align:left;
+    text-indent :4em;
+    font-weight: 400;
+}
+
+p{
+    text-indent:2em;
+    text-align: left;
+    font-family: "宋体";
+}
+
+.p_classify{
+    text-indent:8em;
+    text-align: left;
+    font-family: "宋体";          /*分类部分得文字样式*/
+}
+
+.Twords{
+    font-weight: 400;
+    color:black;
+    font-size: 20px;              /*导航表的样式*/
+}
+
+
+a{
+    text-decoration: none;
+} 
+
+ a:link{
+    color: blue;
+    text-decoration: none;
+} 
+
+a:visited{
+    color:blue;
+    text-decoration: none;
+}   
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.pic1{
+    float:right;
+    width: 350px;    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../image/电磁炮1.jpg");
+
+}
+
+.pic2{
+    float:right;
+    width: 350px;    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../image/电磁炮2.jpg");
+
+}
+
+.pic3{
+    float:right;
+    width: 350px;    height: 450px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../image/电磁炮3.jpg");
+
+}
+ /*两张原理图*/
+.principle1{
+    float:left;
+     width: 400px;  height: 290px;
+     opacity: 0.5;
+}
+
+.principle2{
+     width: 500px;  height: 290px;
+     opacity: 0.5;
+}
+
+.olpattern li{
+    text-align: left;
+    font-family: "宋体";
+}
+
+.input_left{
+    float: left;
+}
+
+.divright{
+    position: relative;
+    /* float:left; */
+    left: 400px;;
+}
+
+
+.button{
+    float: left;
+    position: relative;
+    left: 100px;
+    width: 100px;
+    height: 50px;
+}
+
+.divgif {
+    /* background-position: center center;
+    background-repeat: no-repeat; */
+    /* background-image: url("image/发射动图.gif"); */
+    position: relative;
+    float: left;
+    left: 500px;
+    width: 500px;
+    height: 400px;
+}
+
+.information{
+    float: initial;
+    position: relative;
+     left: 400px; 
+    bottom:-250px;
+}
+
+.input_right{
+    text-align: center;
+}
